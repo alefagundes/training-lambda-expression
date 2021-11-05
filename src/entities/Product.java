@@ -35,6 +35,13 @@ public class Product {
 	 public boolean nonStaticProductPredicate() {
 		 return price >= 100.0;
 	 }
+	 public static void updateValue(Product p) {
+		 p.setPrice(p.getPrice()*1.1);
+	 }
+	 
+	 public double Uvalue() {
+		 return price = price * 1.1;
+	 }
  
  
 }
